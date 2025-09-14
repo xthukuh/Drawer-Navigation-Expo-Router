@@ -9,7 +9,7 @@ export default function Notifications() {
         navigation.dispatch(DrawerActions.openDrawer())
     }
   return (
-    <View>
+    <View style={{padding: 20, alignItems: 'center', justifyContent: 'center', flex: 1}}>
       <Text>Notifications</Text>
       <Button title="open drawer" onPress={openDrawer}/>
     </View>

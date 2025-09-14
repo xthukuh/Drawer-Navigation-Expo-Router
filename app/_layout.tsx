@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { Drawer } from 'expo-router/drawer';
-import Ionicons from '@expo/vector-icons/Ionicons';
+import Feather from '@expo/vector-icons/Feather';
 import CustomDrawerContent from '../components/customDrawerContent';
 
 
@@ -24,7 +24,7 @@ export default function _layout() {
                 drawerLabel: 'Home',
                 title: 'Home',
                 drawerIcon: ({size, color})=>(
-                    <Ionicons name='md-home' size={size} color={color} />
+                    <Feather name='home' size={size} color={color} />
                 )
 
             }}
@@ -35,7 +35,7 @@ export default function _layout() {
                 drawerLabel: 'About',
                 title: 'About',
                 drawerIcon: ({size, color})=>(
-                    <Ionicons name='ios-information-circle' size={size} color={color} />
+                    <Feather name='info' size={size} color={color} />
                 )
 
             }}
