@@ -22,7 +22,9 @@ export default function CustomDrawerContent(props: any) {
     };
     return (
         <View
-            style={{ flex: 1 }}
+            style={{
+                flex: 1,
+            }}
         >
             <DrawerContentScrollView
                 {...props}
@@ -142,7 +144,7 @@ const styles = StyleSheet.create({
 
     drawerContent: {
         flex: 1,
-        marginTop: StatusBar.currentHeight ? -StatusBar.currentHeight : -24
+        marginTop: StatusBar.currentHeight ? -StatusBar.currentHeight : -24,
     },
 
     profileSection: {

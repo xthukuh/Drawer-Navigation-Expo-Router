@@ -11,6 +11,11 @@ export default function _layout() {
             drawerLabelStyle: {
                 marginLeft: -20
             },
+            drawerStyle: {
+                width: 300,
+                borderCurve: undefined,
+                borderRadius: 0,
+            },
             // drawerActiveBackgroundColor: 'gray',
             // drawerActiveTintColor: 'white',
             // drawerInactiveTintColor: 'white'
